@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Name is <span th:text=${name}></span></h1>
+	<div th:with="a=5 ,b=3, n=${name}">
+	<h2>value of a is <span th:text=${a}></span></h2>
+		
+	</div>
+</body>
+</html>

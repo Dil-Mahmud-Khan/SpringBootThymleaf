@@ -15,8 +15,7 @@ public class StudentDaoImpl implements StudentDao{
 	  
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
-	
-	
+
 	public JdbcTemplate getJdbcTemplate() {
 		return jdbcTemplate;
 	}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Conditional Statement</h1>
+	
+	<h1>This is <span 
+	th:style="${isActive}? 'color:green' : 'color:red'"
+	
+	th:text="${isActive}? 'Active' : 'Not Active'">
+	</span>
+	</h1>
+
+
+<h3 th:if ="${gender}=='M'">Male</h3>
+	
+<h3 th:unless="${gender}=='F'">Female</h3>
+ 
+</body>
+</html>
